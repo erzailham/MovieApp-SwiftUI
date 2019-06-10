@@ -21,8 +21,8 @@ struct NowPlayingItemView : View {
                     .overlay(
                         Circle().stroke(Color.gray, lineWidth: 1))
                     .shadow(radius: 100)
-            }
-            .frame(width: 100, height: 100)
+                }
+                .frame(width: 100, height: 100)
             VStack {
                 Text(movie.title)
                     .font(.headline)
